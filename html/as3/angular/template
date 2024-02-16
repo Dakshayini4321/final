@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page1</title>
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .login-box {
+                max-width: 400px;
+               
+                border: 1px solid #ccc;
+                border-radius: 5px;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2>User Application</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" pattern="[A-Za-z0-9]{1,}" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Password" minlength="4" maxlength="12" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+            </form>
+            <p class="text-center">
+                <a href="#">Create New Account</a> |
+                <a href="#">Sign In</a> |
+                <i class="fa fa-external-link" aria-hidden="true"></i> 
+            </p>
+        </div>
+    
+        
+    </body>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page1</title>
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .login-box {
+                max-width: 400px;
+               
+                border: 1px solid #ccc;
+                border-radius: 5px;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2>User Application</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" pattern="[A-Za-z0-9]{1,}" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Password" minlength="4" maxlength="12" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+            </form>
+            <p class="text-center">
+                <a href="#">Create New Account</a> |
+                <a href="#">Sign In</a> |
+                <i class="fa fa-external-link" aria-hidden="true"></i> 
+            </p>
+        </div>
+    
+        
+    </body>
+    </html>
